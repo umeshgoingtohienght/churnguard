@@ -1,0 +1,56 @@
+{
+  "best_model": "Logistic Regression",
+  "threshold": 0.46,
+  "best_model_metrics": {
+    "accuracy": 0.7614,
+    "precision": 0.5538,
+    "recall": 0.8056,
+    "f1": 0.6564,
+    "roc_auc": 0.8434
+  },
+  "all_models": {
+    "Logistic Regression": {
+      "accuracy": 0.7671,
+      "precision": 0.5655,
+      "recall": 0.7626,
+      "f1": 0.6495,
+      "roc_auc": 0.8434,
+      "cv_auc_mean": 0.8449,
+      "cv_auc_std": 0.0078
+    },
+    "Random Forest": {
+      "accuracy": 0.7636,
+      "precision": 0.561,
+      "recall": 0.7551,
+      "f1": 0.6437,
+      "roc_auc": 0.8349,
+      "cv_auc_mean": 0.8317,
+      "cv_auc_std": 0.0104
+    },
+    "Gradient Boosting": {
+      "accuracy": 0.7993,
+      "precision": 0.6814,
+      "recall": 0.5455,
+      "f1": 0.6059,
+      "roc_auc": 0.8408,
+      "cv_auc_mean": 0.8378,
+      "cv_auc_std": 0.0103
+    }
+  },
+  "top_features": [
+    "contract_Two year",
+    "contract_Month-to-month",
+    "tenure_months",
+    "internet_service_DSL",
+    "support_calls",
+    "internet_service_Fiber optic",
+    "payment_method_Mailed check",
+    "payment_method_Electronic check",
+    "online_security_No internet",
+    "tech_support_No internet",
+    "internet_service_No",
+    "streaming_No internet"
+  ],
+  "rows": 7000,
+  "churn_rate": 0.2831
+}
